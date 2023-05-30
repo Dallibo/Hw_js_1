@@ -27,10 +27,10 @@ alert("Разница: " + difference);
 alert("Произведение: " + product);
 alert("Частное: " + quotient);
 
-let a = +prompt("Введите значение a для вычисления x:");
-let b = +prompt("Введите значение b для вычисления x:");
+let a = +prompt("Введите значение (a) для вычисления (x):");
+let b = +prompt("Введите значение (b) для вычисления (x):");
 let x = -b / a;
-alert("Значение x: " + x);
+alert("Значение (x): " + x);
 
 let hours1 = +prompt("Введите текущие часы:");
 let minutes1 = +prompt("Введите текущие минуты:");
@@ -39,13 +39,13 @@ let minutes2 = 60 - minutes1;
 alert("До следующего дня осталось: " + hours2 + " часов " + minutes2 + " минут.");
 
 let numb7 = +prompt("Введите трехзначное число:");
-let numb8 = Math.floor((number % 100) / 10);
+let numb8 = Math.floor((numb7 % 100) / 10);
 alert("Вторая цыфра этого числа: " + numb8);
 
-let numb9 = +prompt("Введите пятизначное число:");
-let numb10 = numb9.slice(-1);
+let numb9 = prompt("Введите пятизначное число:");
+let numb10 = numb9.slice(-1,);
 let numb11 = numb9.slice(0, -1);
-let result1 = numb10 + numb11;
+let result1 = numb10;
 alert("Результат: " + result1);
 
 let numb12 = +prompt("Введите общую сумму продажи за месяц:");
