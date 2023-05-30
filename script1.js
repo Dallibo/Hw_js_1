@@ -38,3 +38,18 @@ let hours2 = 24 - hours1 -1;
 let minutes2 = 60 - minutes1;
 alert("До следующего дня осталось: " + hours2 + " часов " + minutes2 + " минут.");
 
+let numb7 = +prompt("Введите трехзначное число:");
+let numb8 = Math.floor((number % 100) / 10);
+alert("Вторая цыфра этого числа: " + numb8);
+
+let numb9 = +prompt("Введите пятизначное число:");
+let numb10 = numb9.slice(-1);
+let numb11 = numb9.slice(0, -1);
+let result1 = numb10 + numb11;
+alert("Результат: " + result1);
+
+let numb12 = +prompt("Введите общую сумму продажи за месяц:");
+let numb13 = 250
+let numb14 = numb12 * 0.1;
+let result2 = numb14 + numb13;
+alert("Общая запрата: " + result2);
